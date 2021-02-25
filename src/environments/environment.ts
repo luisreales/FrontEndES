@@ -3,7 +3,19 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  apiURL: 'http://localhost:',
+  urlport: 58994,
+  // *****************************************************************
+   //                         Users API
+   // *****************************************************************
+
+   // login y autenticación
+   obtenerUsuarios: '/api/user/all',
+   registrarUsuario : '/api/user/add',
+   editarUsuario: '/api/user/update',
+   borrarUsuarios: '/api/user/delete',  
+
 };
 
 /*
